@@ -1,0 +1,13 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap:5%;
+    width:80%;
+    margin: auto;
+}
+
+#container > div {
+    border:2px solid black;
+   
+}
